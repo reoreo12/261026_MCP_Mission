@@ -5,7 +5,8 @@ namespace DodgeBall
     // Y축 기준으로 초당 speed도 회전
     public class Rotator : MonoBehaviour
     {
-        public float speed = 90f;
+        [SerializeField]
+        private float speed = 90f;
 
         void Update()
         {
